@@ -1,0 +1,25 @@
+# Credentials: never commit
+.env
+.env.*
+!.env.telegram.example
+backend/.env
+backend/.env.*
+*.key
+*.pem
+*.session
+*.session-journal
+*.sqlite
+*.sqlite3
+*.db
+storage/
+media/
+*.mp4
+*.webm
+*.mkv
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+node_modules/
+*.log
